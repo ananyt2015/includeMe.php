@@ -8,12 +8,12 @@
 		
 	To check whether the connection is established or not use isConnect() function it returns boolean false
 	
-	That's yet. Than you.
+	That's it. Thank you. // yet is replaced with it and thank you is corrected.
 	
 	
- * Server class contain another function that is selectAllData() which is used to fatch all the data stored in a
-   spacific table. It takes a parameter as table name and takes the Database as previously given.
-   
+ * Server class contain another function that is selectAllData() which is used to fetch all the data stored in a
+   spacific table. It takes a parameter as table name and takes the Database as previously given. //fatch is being corrected with fetch
+     
  * Introducing getHost() function which take one parameter and return the required detail about your server or user
    or current executed file.  
 */
@@ -40,9 +40,9 @@ class Server {
 	public function isConnect(){
 		
 		if($GLOBALS['connect']){
-			$report = true;
+			$report = true;/* I guess use $report="Connesctions Established",. It will be more user-friendly. */
 		} else {
-			$report = false;
+			$report = false; /* I guess use $report="Connection Error". It will be more user-friendly */
 		}
 		return $report;
 	}
