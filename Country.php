@@ -12,7 +12,7 @@
 		echo $value."<br>";
 	}
 	
-	That's yet. I hope this will be helpfull. Thank you. 
+	That's it. I hope this will be helpfull. Thank you. //yet is replaced with it.
 */
 
 
